@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\movetech\\Desktop\\Cases\\Case2\\Case2\\Case2.csproj",
+      "projectUniqueName": "C:\\Users\\movetech\\Documents\\GitHub\\TreeFormat\\Case2\\Case2\\Case2.csproj",
       "projectName": "Case2",
-      "projectPath": "C:\\Users\\movetech\\Desktop\\Cases\\Case2\\Case2\\Case2.csproj",
+      "projectPath": "C:\\Users\\movetech\\Documents\\GitHub\\TreeFormat\\Case2\\Case2\\Case2.csproj",
       "packagesPath": "C:\\Users\\movetech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\movetech\\Desktop\\Cases\\Case2\\Case2\\obj\\",
+      "outputPath": "C:\\Users\\movetech\\Documents\\GitHub\\TreeFormat\\Case2\\Case2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\movetech\\AppData\\Roaming\\NuGet\\NuGet.Config",

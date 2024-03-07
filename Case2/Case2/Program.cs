@@ -4,7 +4,7 @@ Console.Write("Uygun formatta giriş yapınız örn:'abccbdeeda':  ");
 string? word = Console.ReadLine();
 
 Stack<char> letterstack = new Stack<char>();
-int x = -1;
+int depth = -1;
 
 if (word != null)
 foreach (char letter in word)
@@ -12,19 +12,19 @@ foreach (char letter in word)
     if (letterstack.Count > 0 && letterstack.Peek() == letter)
     {
         letterstack.Pop();
-        x--;
+        depth--;
     }
     else
     {
         if (letterstack.Count > 0)
             Console.Write("-");
 
-        for (int i = 0; i < x; i++)
+        for (int i = 0; i < depth; i++)
             Console.Write("-");
 
         Console.WriteLine(letter);
         letterstack.Push(letter);
-        x++;
+        depth++;
     }
 }
 goto again;
